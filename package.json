@@ -40,15 +40,23 @@
     "access": "public"
   },
   "keywords": [
-    "continue",
-    "continuedev",
     "backblaze",
     "b2",
-    "backup"
+    "backup",
+    "continue",
+    "continuedev",
+    "vscode",
+    "ai-agent",
+    "coding-agent",
+    "cloud-storage",
+    "encryption",
+    "cli",
+    "b2-labs"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/backblaze-labs/continue-b2-backup.git"
-  }
+  },
+  "homepage": "https://blze.ai/storage"
 }

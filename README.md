@@ -1,5 +1,7 @@
 # continue-b2-backup
 
+**Encrypted, incremental, off-site backups for your AI coding agent — powered by [Backblaze B2 cloud storage](https://blze.ai/storage).**
+
 Incremental, **encrypted** backup of your [Continue](https://continue.dev) chat sessions and config to [Backblaze B2](https://www.backblaze.com/cloud-storage).
 
 Built on [`@backblaze-labs/agent-backup-core`](https://github.com/backblaze-labs/agent-backup-core).
@@ -37,6 +39,11 @@ Mirrors `~/.continue` (or `CONTINUE_GLOBAL_DIR`):
 ## Security
 
 Set `B2_ENCRYPTION_KEY` (separate from your B2 credentials) — `config.yaml` can contain inline API keys and is included (encrypted) so restores work. `~/.continue/.env` (the recommended plaintext secrets store) is **excluded** and never shipped to B2.
+
+## Learn more
+
+- [Backblaze B2 Cloud Storage](https://blze.ai/storage) — affordable, S3-compatible object storage
+- [agent-backup-core](https://github.com/backblaze-labs/agent-backup-core) — the shared backup engine powering this tool
 
 ## License
 
